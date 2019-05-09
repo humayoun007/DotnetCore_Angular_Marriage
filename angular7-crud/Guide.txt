@@ -1,0 +1,63 @@
+Building A CRUD Web Application with angular
+
+The following tools, frameworks, and modules are required for this tutorial:
+
+Node.js (recommended version)
+Angular 7 CLI
+Angular 7
+Express and MongoDB API
+Terminal (Mac/Linux) or Node Command Line (Windows)
+IDE or Text Editor
+
+
+
+Open the terminal or Node command line then type this commands.
+
+node -v
+npm -v
+
+To install or update Angular 7 CLI, type this command in the Terminal or Node Command Line.
+
+npm install -g @angular/cli
+
+if you are using linux then : sudo npm install -g @angular/cli
+
+for checking version: ng --version
+
+create a new Angular 7 Web Application using this Angular CLI command.
+
+ng new angular7-crud
+
+Next, go to the newly created Angular 7 project folder.
+
+cd angular7-crud
+
+Type this command to run the Angular 7 application using this command.
+ng serve
+
+Open your browser then go to this address `localhost:4200`, you should see this Angular 7 page.
+
+
+The Angular 7 routes already added when we create new Angular 7 application
+
+Before configure the routes, type this command to create a new Angular 7 components.
+
+ng g component {component-name}
+
+
+Open `src/app/app.module.ts` then you will see those components imported and declared in `@NgModule` declarations. Next, open and edit `src/app/app-routing.module.ts` then add this imports.
+
+import { YourCreatedComponent } from './path/installed.component';
+
+Add  arrays to the existing routes constant.
+
+generate an Angular 7 service by typing this command.
+
+ng g service api
+
+Type this command to install Angular Material.
+
+ng add @angular/material
+
+
+
