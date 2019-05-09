@@ -1,0 +1,15 @@
+
+Pre-Requisites:
+Visual Studio Code
+.NET Core SDK 2.2 or later
+C# for Visual Studio Code version 1.17.1 or later
+
+In terminal:
+dotnet new webapi -o TodoApi
+code -r TodoApi
+
+Press Ctrl+F5 to run the app. In a browser, go to following URL: https://localhost:5001/api/todo.
+
+uses Postman to test the web API. This project also has an index.html file to test this api , 
+for that you have to run https://localhost:5001. 
+
