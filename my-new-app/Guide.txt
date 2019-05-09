@@ -1,0 +1,17 @@
+
+Use the Angular project template with ASP.NET Core
+
+
+command for creating this type of project:
+
+dotnet new angular -o my-new-app
+code -r my-new-app
+
+Run: dotnet build , On the first run, the build process restores npm dependencies
+
+
+Run dotnet run to start the app, it will say: listening on: http://localhost:<port>
+
+Navigate to this URL in a browser.
+
+
